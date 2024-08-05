@@ -1,0 +1,129 @@
+
+
+
+body{
+  background: #ffffff;
+  margin: 0pt;
+}
+
+/* Left */
+.Left{
+  display: flex;
+  justify-content: left;
+}
+
+/* Right */
+.Right{
+  display: flex;
+  justify-content: left;
+}
+
+.box_right{
+  background: #ffffff; /* El fondo blanco */
+  border-style: solid; /* Hay muchos estilos de bordes. Usaremos solid. */
+  border-color: #000000; /* Usaremos el color negro. */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Haremos la sombra (En forma de las manecillas del reloj.)... */
+  border: 2em; /* Borde (casi inexistente) */
+}
+
+.Box{
+  background: #ffffff; /* El fondo blanco */
+  border-style: solid; /* Hay muchos estilos de bordes. Usaremos solid. */
+  border-color: #000000; /* Usaremos el color negro. */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); /* Haremos la sombra (En forma de las manecillas del reloj.)... */
+  border: 1pt; /* Border (casi inexistente) */
+  margin: 10pt 4pt;
+  padding: 10pt;
+  
+}
+
+.Box a{
+  text-decoration: none;
+}
+
+.Imagen_Tele{
+  display: flex;
+  justify-content: center;
+}
+
+.Menu{
+  background: #5d76d29c;
+  margin: 10pt;
+  padding: 2pt;
+  font-family: "Poppins", sans-serif;
+}
+
+.Titulo{
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: #ffffff02;
+    top: 0; bottom: 10px; left: 0; right: 10px;
+    border-radius: 10px;
+    margin: 8pt;
+    padding: 4pt;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.Subtitulo{
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  background: #ffffff;
+  padding: 2pt;
+  margin: 2pt;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Precio{
+  color: #373cb4;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.Sub_Text{
+  background: #ffffff;
+  margin: 2pt;
+  padding: 6pt;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  color: #000000;
+}
+
+h1 Button{
+  /* color: #3c3fb2;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  display: flex;
+  justify-content: center; */
+  background: #d20505;
+
+}
+
+.Button{
+  background: #373cb4;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 6pt 2pt 6pt 2pt;
+  padding: 6pt 2pt 6pt 2pt;
+}
+
+.Button:hover
+{
+  background: #9fa4d3;
+  
+}
